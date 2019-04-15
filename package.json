@@ -43,14 +43,14 @@
     "lodash": "^4.16.4",
     "nbp-normaliser-fb-messenger": "0.0.1",
     "nbp-locales": "0.0.2",
-    "nbp-adapter-google-datastore": "0.0.2",
-    "nbp-adapter-google-natural-language": "0.0.2",
+    "nbp-adapter-google-datastore": "0.0.4",
+    "nbp-adapter-google-natural-language": "0.0.4",
     "nbp-adapter-memcached": "0.0.2",
     "nbp-adapter-wit": "0.0.2",
     "nbp-logger": "0.0.1",
     "nbp-adapter-fb-messenger": "0.0.2",
     "nbp-rules": "0.0.1",
     "nbp-skills-cluster": "0.0.1",
-    "newrelic": "^1.32.0"
+    "newrelic": "^4.0.0"
   }
 }
