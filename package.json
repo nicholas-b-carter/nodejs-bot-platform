@@ -8,7 +8,9 @@
     "build:dev:watch": "webpack --watch",
     "start:dev": "./tools/start/dev.sh",
     "start": "./tools/start/prod.sh",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Maxim Vetrenko <vetrenko.maxim@gmail.com> (https://github.com/maxmert)",
   "license": "ISC",
@@ -51,6 +53,8 @@
     "nbp-adapter-fb-messenger": "0.0.2",
     "nbp-rules": "0.0.1",
     "nbp-skills-cluster": "0.0.1",
-    "newrelic": "^1.32.0"
-  }
+    "newrelic": "^1.32.0",
+    "snyk": "^1.192.4"
+  },
+  "snyk": true
 }
