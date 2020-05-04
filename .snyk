@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-fb-messenger > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-memcached > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-wit > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-locales > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-normaliser-fb-messenger > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-skills-cluster > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-logger > express-winston > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-rules > reflecti > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-skills-cluster > reflecti > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/vision > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/vision > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/datastore > split-array-stream > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/datastore > split-array-stream > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/speech > google-gax > grpc > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/speech > google-gax > grpc > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/speech > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/speech > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/speech > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/speech > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/compute > gce-images > google-auto-auth > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/compute > gce-images > google-auto-auth > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > form-data > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/vision > @google-cloud/common > google-auto-auth > google-auth-library > request > form-data > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-datastore > google-cloud > @google-cloud/speech > google-gax > google-auto-auth > google-auth-library > request > form-data > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
+    - nbp-adapter-google-natural-language > google-cloud > @google-cloud/speech > google-gax > google-auto-auth > google-auth-library > request > form-data > async > lodash:
+        patched: '2020-05-04T22:25:26.621Z'
